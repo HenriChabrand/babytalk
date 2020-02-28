@@ -11,7 +11,7 @@ var bs = BinaryServer({server: server});
 var room = {};
 
 app.configure(function(){
-  app.set('port', process.argv[2] || 3000);
+  app.set('port', 3000);
   app.set('views', path.join(__dirname, 'views'));
   app.set('view engine', 'jade');
 
